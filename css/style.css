@@ -1,0 +1,190 @@
+body {
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+
+a {
+  color: #ffcc00;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto 20px auto;
+  overflow: hidden;
+}
+
+article h2 {
+  background-color: #0182be;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+header {
+  background-color: #b2eaff;
+  border-top: 10px solid #0182be;
+  margin-bottom: 20px;
+}
+
+header .inner {
+  height: 140px;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+header nav {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+header li {
+  float: left;
+  margin-right: 20px;
+}
+
+main {
+  width: 640px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+aside .banner {
+  margin-bottom: 20px;
+}
+
+aside .info {
+  border: 5px solid #0182be;
+  border-radius: 5px;
+}
+
+aside .info h3 {
+  background-color: #0182be;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+aside .info ul {
+  list-style-type: none;
+  margin: 20px;
+}
+
+aside .info li {
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+footer {
+  background-color: #b2eaff;
+  height: 110px;
+  border-bottom: 10px solid #0182be;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+footer address {
+  margin-top: 20px;
+  line-height: 1.3;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+footer p br {
+  display: none;
+}
+
+#home main .main-image {
+  margin-bottom: 20px;
+}
+
+#home main h2 {
+  font-size: 20px;
+  color: #0182be;
+  font-weight: bold;
+  margin: 0 20px 20px 20px;
+}
+
+#home main p {
+  line-height: 1.3;
+  margin: 0 20px 20px 20px;
+}
+
+#course main section {
+  margin: 0 20px 40px 20px;
+  overflow: hidden;
+}
+
+#course main section:last-child {
+  margin-bottom: 20px;
+}
+
+#course main section figure {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+#course main section h3 {
+  color: #0182be;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#course main section p {
+  margin-left: 220px;
+  line-height: 1.3;
+}
+
+#access main section {
+  margin: 0 20px 40px 0;
+  overflow: hidden;
+}
+
+#access main section h3 {
+  font-size: 20px;
+  color: #0182be;
+  margin: 0 0 20px 0;
+}
+
+#access main section p {
+  margin: 0 0 20px 0;
+  line-height: 1.3;
+}
+
+#access main section.mihama figure {
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+#access main section.american h3 {
+  text-align: center;
+}
+
+#access main address {
+  text-align: center;
+  margin: 20px 0 0 0;
+  line-height: 1.3;
+}
+/*# sourceMappingURL=style.css.map */

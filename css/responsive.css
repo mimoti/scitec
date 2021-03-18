@@ -1,0 +1,82 @@
+@media (max-width: 600px) {
+  header .inner {
+    width: auto;
+    height: auto;
+  }
+  header h1 {
+    position: static;
+    text-align: center;
+    margin: 20px 0;
+  }
+  header nav {
+    position: static;
+  }
+  header ul {
+    overflow: hidden;
+  }
+  header ul li {
+    background-color: #0182be;
+    width: 25%;
+    margin: 0;
+  }
+  header ul li img {
+    width: 100%;
+  }
+  .content {
+    width: auto;
+  }
+  article h2 {
+    margin: 0 20px 20px;
+  }
+  main {
+    width: auto;
+    float: none;
+    margin-bottom: 60px;
+  }
+  #home main .main-image img {
+    width: 100%;
+  }
+  aside {
+    float: none;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  aside .banner {
+    text-align: center;
+  }
+  footer {
+    height: auto;
+  }
+  footer p {
+    margin-bottom: 20px;
+  }
+  footer p br {
+    display: inline;
+  }
+  #course main section {
+    margin-bottom: 80px;
+  }
+  #course main section figure {
+    float: none;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  #course main section p {
+    margin-left: 0;
+  }
+  #access main section {
+    margin: 0 20px 60px;
+  }
+  #access main section figure img {
+    width: 100%;
+  }
+  #access main section.mihama figure {
+    float: none;
+    text-align: center;
+  }
+  #access main section.american h3 {
+    text-align: justify;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

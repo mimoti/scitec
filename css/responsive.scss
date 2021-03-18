@@ -1,0 +1,148 @@
+
+// 設定
+// ---------------------------------
+$bg-color: #b2eaff;
+$main-color: #0182be;
+$accent-color: #ffcc00;
+$font-normal: 14px;
+$font-large: 20px;
+
+
+
+// 600px以下の場合
+@media(max-width:600px) {
+
+// ヘッダー
+// ---------------------------------
+  header {
+    .inner {
+      width: auto;
+      height: auto;
+    }
+    h1 {
+      position: static;
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav {
+      position: static;
+    }
+    ul {
+      overflow: hidden;
+      li {
+        background-color: $main-color;
+        width: 25%;
+        margin: 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+
+// 共通
+// ---------------------------------
+  .content {
+    width: auto;
+  }
+  article {
+    h2 {
+      margin: 0 20px 20px;
+    }
+  }
+  
+
+// メイン
+// ---------------------------------
+  main {
+    width: auto;
+    float: none;
+    margin-bottom: 60px;
+  }
+
+// トップページ
+// ---------------------------------
+  #home {
+    main {
+      .main-image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+// サイド
+// ---------------------------------
+  aside {
+    float: none;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    .banner {
+      text-align: center;
+    }
+  }
+
+// フッター
+// ---------------------------------
+  footer {
+    height: auto;
+    p {
+      margin-bottom: 20px;
+      br {
+        display: inline;
+      }
+    }
+  }
+
+
+  // 学科紹介
+// ---------------------------------
+  #course {
+    main {
+    section {
+      margin-bottom: 80px;
+      figure {
+        float: none;
+        text-align: center;
+        margin: 0 0 20px;
+      }
+      p {
+        margin-left: 0;
+        }
+      }
+    }
+  }
+
+
+  // アクセス
+// ---------------------------------
+#access {
+  main {
+    section {
+      margin: 0 20px 60px;
+      figure {
+        img {
+          width: 100%;
+        }
+      }
+      &.mihama figure {
+        float: none;
+        text-align: center;
+      }
+      &.american h3 {
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+}
